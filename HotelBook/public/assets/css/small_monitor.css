@@ -1,0 +1,203 @@
+@media  (max-width:1100px) {
+  .container {
+    width: 100%;
+    padding: 10% 0;
+    background-size: cover;
+    margin: 0 auto;
+    height: auto;
+  }
+  body > header .main-logo {
+    color: #000;
+    margin: 0;
+    padding: 12.5px 160px;
+    float: left;
+  }
+  body > header .primary-menu {
+    padding-right: 115px;
+  }
+
+  section.hero{
+    background-size: cover;
+    width: 100%
+  }
+  /* <==================list-page======================> */
+  .container-search-list {
+    width: 100%;
+  }
+  article.hotel .info {
+    width: 62%;
+    box-sizing: border-box;
+    padding: 0 0 0 61px;
+  }
+  input#submitButtonList {
+    color: #fff;
+}
+  /*<=================== profile-page=============> */
+  main.container-profile {
+    width: 100%;
+  }
+  aside.aside-bar.box.inline-block.align-top {
+    font-size: 17px;
+  }
+  /*<=================== room-page=============> */
+  
+
+  
+  .container-room .room-photo {
+    justify-content: center;
+    margin: 24px 0;
+  }
+  .container-room .room-top-bar {
+    background: #0b8194;
+    position: relative;
+    top: 4px;
+    height: auto;
+    width: 100%;
+  }
+  .container-room .room-top-bar .room-title {
+    width: 100%;
+    margin:0;
+  }
+  .container-room .room-top-bar .room-title h1 {
+    padding: 0 14px;
+  }
+  .room-review {
+    margin: 0;
+    padding: 8px 0;
+    width: 100%;
+    font-size: 25px;
+  }
+  .room-review span:first-child {
+    padding: 0 9px;
+  }
+  .room-favorite {
+    margin: 0;
+  }
+  .container-room {
+    width: 100%;
+    padding: 154px 0;
+    margin: 0 auto;
+  }
+  .container-room .room-top-bar .rooms-price {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .container-room .room-photo {
+    margin: 21px 0;
+    width: 100%;
+  }
+  .container-room .rooms-info {
+    height: auto;
+    width: 95%;
+  }
+  .rooms-info table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .rooms-info table tr {
+    font-size: 7px;
+  }
+  .rooms-info table th:last-child {
+    border-right: none;
+  }
+  .container-room .rooms-info-description {
+    width: 100%;
+    margin-left: 0;
+  }
+  .room-reviews {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  div#all-room-review-form {
+    width: 100%;
+    border-bottom: 1px dashed #0b8194;
+    padding-bottom: 31px;
+  }
+  div#all-room-review-form:last-child {
+    border-bottom: none;
+  }
+  .add-review {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 50 0;
+    border-left: none;
+  }
+  .review-textarea textarea#review_field {
+    border: ridge 2px;
+    width: 85%;
+    padding: 9px;
+    min-height: 8em;
+    max-width: 100%;
+    overflow: auto;
+  }
+  button.favorite-btn {
+    padding-bottom: -61px;
+    font-size: 19px;
+    padding: 10px 16px;
+    margin: 0px;
+  }
+  .room-booking {
+    margin: 0;
+    padding-bottom: 35px;
+    justify-content: center;
+  }
+  .room-reviews p:last-child {
+    border-bottom: none;
+    width: 100%;
+  }
+  .review-textarea {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .room-reviews p:last-child {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .add-review fieldset.rating {
+    justify-content: center;
+    margin: 0;
+  }
+  .review-sudmit {
+    padding-top: 36px;
+  }
+  .fa-heart {
+    color: #fff;
+  }
+  i.fas.fa-heart.selected {
+    color: yellow;
+  }
+  .grid-container {
+    width: 100%;
+    border: none;
+  }
+  button.check-dates-sudmit-buttons {
+    margin: 0;
+  }
+  span.already-book {
+    font-size: 17px;
+    color: #fff;
+    background: #911108;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    cursor: not-allowed;
+    width: 140px;
+    height: 50px;
+    padding: 0;
+    border: none;
+  }
+  .map {
+    width: 100%;
+    margin: 25px 0;
+    padding: 0;
+  }
+}
